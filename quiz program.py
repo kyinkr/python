@@ -23,6 +23,6 @@ for i in list:
     else:
         print(f"정답이 아닙니다. 정답은 {i['정답']} 입니다.\n")
     
-    print(f"문제가 끝났습니다. 당신의 총 {len(list)}문제 중 {score}문제를 맞췄습니다.\n")
-    print(f"당신의 점수는 {score}점 입니다.")
+print(f"문제가 끝났습니다. 당신의 총 {len(list)}문제 중 {score}문제를 맞췄습니다.\n")
+print(f"당신의 점수는 {score}점 입니다.")
     
